@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drag and Drop - Js Tutorial 64</title>
+    <style>
+        body {
+            background: rgb(237, 238, 175);
+        }
+
+        .imgBox {
+            background-image: url('image/3.jpeg');
+            position: relative;
+            /* top: 7px; */
+            /* left: 5px; */
+            height: 145px;
+            width: 145px;
+            cursor: pointer;
+        }
+
+        .whiteBox {
+            display: inline-block;
+            height: 155px;
+            width: 155px;
+            margin: 10px;
+            background-color: white;
+            border: 3px rgb(221, 221, 216) solid;
+        }
+
+        .hold {
+            border: solid rgb(238, 241, 17) 4px;
+        }
+
+        .dashed {
+            background: white;
+            border-style: solid;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+
+        <div class="whiteBox">
+            <div class="imgBox" draggable="true"></div>
+        </div>
+        <div class="whiteBox"></div>
+        <div class="whiteBox"></div>
+        <div class="whiteBox"></div>
+    </center>
+</body>
+<script src="index2.js"></script>
+
+</html>
